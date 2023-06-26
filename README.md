@@ -1,2 +1,2 @@
-# progect2
+# MoGo
 html
