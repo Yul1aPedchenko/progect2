@@ -1,24 +1,32 @@
+:root {
+    --title-color: #333;
+    --text-color: #b6b6b6;
+    --logo-color: #95E1D3;
+    --line-color: #F38181;
+    --textButton-color: #FFFFFF;
+}
+
 .line {
     width: 60px;
     height: 4px;
-    background: #F38181;
+    background: var(--line-color);
 }
 
 .text_nav {
-    color: #95E1D3;
+    color: var(--logo-color);
     text-decoration: none;
 }
 
 .btn1 {
-    background: #95E1D3;
+    background: var(--logo-color);
     border: none;
     padding: 12px 38px;
-    color: #fff;
+    color: var(--textButton-color);
     cursor: pointer;
 }
 
 .form_email {
-    color: #B6B6B6;
+    color: var(--text-color);
     padding: 12px 10px;
     width: 230px;
 }
@@ -26,9 +34,11 @@
 .text {
     font-weight: 400;
     font-size: 24px;
+    color: var(--text-color);
 }
 
 .title {
     font-weight: 700;
     font-size: 30px;
+    color: var(--title-color);
 }
