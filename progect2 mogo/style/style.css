@@ -3,7 +3,15 @@
     --text-color: #b6b6b6;
     --logo-color: #95E1D3;
     --line-color: #F38181;
-    --textButton-color: #FFFFFF;
+    --text-button-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
 }
 
 .line {
@@ -21,7 +29,7 @@
     background: var(--logo-color);
     border: none;
     padding: 12px 38px;
-    color: var(--textButton-color);
+    color: var(--text-button-color);
     cursor: pointer;
 }
 
