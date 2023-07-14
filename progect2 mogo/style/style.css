@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: var(--title-color);
 }
 
 ul, a {
@@ -25,6 +26,7 @@ ul, a {
     color: var(--logo-color);
     font-size: 30px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .header_item {
@@ -56,16 +58,36 @@ ul, a {
     width: 230px;
 }
 
-.text {
+.title-span {
     font-weight: 400;
     font-size: 24px;
-    color: var(--text-color);
+    color: var(--title-color);
+    font-family: 'Kaushan Script';
+    text-align: center;
 }
 
 .title {
     font-weight: 700;
     font-size: 30px;
     color: var(--title-color);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.photography {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--title-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.one-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color);
 }
 
 .section-one {
@@ -73,5 +95,43 @@ ul, a {
 }
 
 .section-two {
-    margin-top: 100pc;
+    margin-top: 100px;
+}
+
+.img-two-section {
+    width: 380px;
+}
+
+.team-name {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.team-position {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.footer {
+    margin-top: 80px;
+    border-top: 1px solid var(--text-color);
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-link {
+    color: var(--line-color);
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
 }
