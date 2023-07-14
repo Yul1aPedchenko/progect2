@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-ul {
+ul, a {
     list-style: none;
 }
 
@@ -18,11 +18,28 @@ ul {
     width: 60px;
     height: 4px;
     background: var(--line-color);
+    border-radius: 20px;
 }
 
-.text_nav {
+.header_title {
+    color: var(--logo-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header_item {
     color: var(--logo-color);
     text-decoration: none;
+}
+
+.header_item:hover,
+.header_item:focus {
+    color: var(--line-color);
+}
+
+.header_list {
+    color: var(--logo-color);
+    font-size: 14px;
 }
 
 .btn1 {
@@ -49,4 +66,12 @@ ul {
     font-weight: 700;
     font-size: 30px;
     color: var(--title-color);
+}
+
+.section-one {
+    margin-top: 81px;
+}
+
+.section-two {
+    margin-top: 100pc;
 }
