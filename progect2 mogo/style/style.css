@@ -9,9 +9,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: var(--title-color);
-    margin-top: 17px;
-    margin-bottom: 18px;
-    margin-right: 367px;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid red;
 }
 
 .line {
