@@ -22,7 +22,6 @@ body {
     width: 60px;
     height: 4px;
     background: var(--line-color);
-    border-radius: 20px;
 }
 
 .header {
@@ -60,6 +59,18 @@ body {
     color: var(--line-color);
 }
 
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-item {
+    width: 328px;
+    display: flex;
+    padding-bottom: 103px;
+}
+
 .btn1 {
     background: var(--logo-color);
     border: none;
@@ -77,9 +88,14 @@ body {
 .title-span {
     font-weight: 400;
     font-size: 24px;
-    color: var(--title-color);
     font-family: 'Kaushan Script';
     text-align: center;
+    margin: 0 auto;
+}
+
+.span-wrap {
+    display: flex;
+    justify-content: center;
 }
 
 .title {
@@ -89,6 +105,8 @@ body {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .photography {
@@ -108,11 +126,6 @@ body {
 
 .section-one {
     margin-top: 81px;
-}
-
-.hero-item {
-    width: 328px;
-    display: flex;
 }
 
 .section-two {
