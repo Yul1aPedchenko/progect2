@@ -77,6 +77,7 @@ body {
 .hero-item {
     width: 328px;
     display: flex;
+    padding-bottom: 103px;
 }
 
 .form_email {
@@ -140,10 +141,6 @@ body {
 
 .section-one {
     margin-top: 81px;
-}
-
-.section-two {
-    margin-top: 103px;
 }
 
 .img-two-section {
