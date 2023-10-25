@@ -78,6 +78,10 @@ body {
     padding-bottom: 103px;
 }
 
+.text-box {
+    margin-left: 20px;
+}
+
 .title-span {
     font-weight: 400;
     font-size: 24px;
